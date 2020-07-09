@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "picture": "https://http2.mlstatic.com/D_NQ_NP_688042-MLA41596395754_042020-V.webp",
+      "title": "Xiaomi Redmi Note 8 Dual SIM 64 GB Azul-netuno 4 GB RAM",
+      "price": 145500,
+      "shippingFree": true,
+      "qtd": 2 
+    },
+    {
+      "id": 2,
+      "picture": "https://http2.mlstatic.com/D_NQ_NP_825184-MLA40518682957_012020-V.webp",
+      "title": "Samsung Galaxy A10s Dual SIM 32 GB Vermelho 2 GB RAM",
+      "price": 91900,
+      "shippingFree": false,
+      "qtd": 10 
+    },
+    {
+      "id": 3,
+      "picture": "https://http2.mlstatic.com/D_NQ_NP_973145-MLA41664752042_052020-V.webp",
+      "title": "Samsung Galaxy A01 Dual SIM 32 GB Preto 2 GB RAM",
+      "price": 79900,
+      "shippingFree": false,
+      "qtd": 3 
+    },
+    {
+      "id": 4,
+      "picture": "https://http2.mlstatic.com/D_NQ_NP_828219-MLA40075406506_122019-V.webp",
+      "title": "Multilaser Flip Vita Dual SIM 32 MB Vermelho/Preto 32 MB RAM",
+      "price": 17990,
+      "shippingFree": true,
+      "qtd": 10 
+    }
+  ]
+}
