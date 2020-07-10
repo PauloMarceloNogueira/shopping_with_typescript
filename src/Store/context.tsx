@@ -1,5 +1,8 @@
 import React, { createContext, useReducer } from 'react'
-import {productReducer, shoppingCartReducer, ShoppingCartActions, ProductActions, FilterReducer} from './reducers'
+import { ShoppingCartActions, ProductActions} from './reducers'
+import {productReducer} from './Reducer/Product.reducer' 
+import {shoppingCartReducer} from './Reducer/ShoppingCart.reducer'
+import {FilterReducer} from './Reducer/Filter.reducer'
 
 type ProductType = {
   id: number;
@@ -18,7 +21,7 @@ type FilterType = {
 type InitialStateType = {
   products: ProductType[]
   shoppingCart: shoppingCartType
-  filter: FilterType
+  filter: FilterType[]
 }
 
 
@@ -33,10 +36,7 @@ const initialState:InitialStateType = {
     qtd: 0,
     amount: 0
   },
-  filter: {
-    key: '',
-    value: ''
-  }
+  filter: []
 }
 
 const AppContext = createContext<{state: InitialStateType; dispatch: React.Dispatch<any>}>({

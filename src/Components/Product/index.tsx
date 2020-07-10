@@ -11,15 +11,15 @@ import {
   ButtonBuy,
   Credits } from './styles';
 import { AppContext } from '../../Store/context';
-import { Types } from '../../Store/reducers';
+import { Types } from '../../Store/Schema/schema';
 import maskNumberToReal from '../../Utils/monetaryMask';
   
-type ProductType = {
+type ReceiveProductType = {
   id: number;
 }
 
 
-const Product: React.FC<ProductType> = ({id}:ProductType) => {
+const Product: React.FC<ReceiveProductType> = ({id}:ReceiveProductType) => {
   const {state, dispatch} = useContext(AppContext)
   const {products} = state
   const product = products.find(a => a.id === id)

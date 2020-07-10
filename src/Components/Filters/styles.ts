@@ -18,6 +18,7 @@ export const Field = styled.span`
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+  padding-bottom: 12px;
 `
 
 export const Tag = styled.div`
